@@ -389,6 +389,19 @@ h4.sub-hd {
 		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
 		letter-spacing: 2px;
 	}
+
+.destiny{
+
+  padding-left: 90px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.36);
+  color: #ffcd00;
+  margin: 0;
+  font-weight: 700;
+ font-family: 'Poppins', sans-serif;
+
+ }
 }
 .card-title {
 		margin-bottom: 1.0em;
@@ -433,6 +446,18 @@ h4.sub-hd {
 h4.sub-hd {
 		font-size: 1.3em;
 	}
+.destiny{
+
+  padding-left: 100px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.36);
+  color: #ffcd00;
+  margin: 0;
+  font-weight: 700;
+ font-family: 'Poppins', sans-serif;
+
+ }
 }
 
 @media (max-width: 576px) {
@@ -506,6 +531,19 @@ h4.sub-hd {
     .nav-gallery li {
     margin-left: 10px;
 }
+
+.destiny{
+
+  padding-left: 100px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.36);
+  color: #ffcd00;
+  margin: 0;
+  font-weight: 700;
+ font-family: 'Poppins', sans-serif;
+
+ }
 }
 
 .sidebar-nav ul{
@@ -561,21 +599,7 @@ h4.sub-hd {
     font-weight: 700;
 }
 
-.contact_grid_right input[type="text"], .contact_grid_right input[type="email"], .contact_grid_left input[type="password"], .contact_grid_right input[type="password"],
- .contact_grid_right textarea, {
-    outline: none;
-    padding: 10px 10px;
-    font-size: 14px;
-    color: #777;
-    background: #f7f7f7;
-    width: 100%;
-    letter-spacing: 1px;
-    border: 1px solid #ebeeef;
-    box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
-    -webkit-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
-    -o-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
-    -moz-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
-}
+
 
 .contact_grid_right input[name="password"]{
    outline: none;
@@ -591,6 +615,67 @@ h4.sub-hd {
     -o-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
     -moz-box-shadow: 2px 2px rgba(187, 188, 189, 0.5); 
 }
+
+.contact_grid_right input[name="phone_no"]{
+   outline: none;
+    padding: 10px 10px;
+    font-size: 14px;
+    color: #777;
+    background: #f7f7f7 !important;
+    width: 100%;
+    letter-spacing: 1px;
+    border: 1px solid #ebeeef;
+    box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -webkit-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -o-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -moz-box-shadow: 2px 2px rgba(187, 188, 189, 0.5); 
+}
+
+.contact_grid_right input[name="first_name"]{
+   outline: none;
+    padding: 10px 10px;
+    font-size: 14px;
+    color: #777;
+    background: #f7f7f7 !important;
+    width: 100%;
+    letter-spacing: 1px;
+    border: 1px solid #ebeeef;
+    box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -webkit-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -o-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -moz-box-shadow: 2px 2px rgba(187, 188, 189, 0.5); 
+}
+
+.contact_grid_right input[name="last_name"]{
+   outline: none;
+    padding: 10px 10px;
+    font-size: 14px;
+    color: #777;
+    background: #f7f7f7 !important;
+    width: 100%;
+    letter-spacing: 1px;
+    border: 1px solid #ebeeef;
+    box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -webkit-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -o-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -moz-box-shadow: 2px 2px rgba(187, 188, 189, 0.5); 
+}
+
+.contact_grid_right input[name="email"]{
+   outline: none;
+    padding: 10px 10px;
+    font-size: 14px;
+    color: #777;
+    background: #f7f7f7 !important;
+    width: 100%;
+    letter-spacing: 1px;
+    border: 1px solid #ebeeef;
+    box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -webkit-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -o-box-shadow: 2px 2px rgba(187, 188, 189, 0.5);
+    -moz-box-shadow: 2px 2px rgba(187, 188, 189, 0.5); 
+}
+
 
 input[type="button"], input[type="submit"], input[type="text"], input[type="email"], input[type="password"], input[type="search"] {
     transition: 0.5s all;
