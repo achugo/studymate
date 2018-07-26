@@ -357,7 +357,19 @@ ol, ul {
 .bluee{
   background-color: #269af1;
 }
+ 
+ .destiny{
 
+  padding-left: 500px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.36);
+  color: #ffcd00;
+  margin: 0;
+  font-weight: 700;
+ font-family: 'Poppins', sans-serif;
+
+ }
 
 
 
