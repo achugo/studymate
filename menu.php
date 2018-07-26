@@ -13,7 +13,7 @@
 
 	<div class="collapse navbar-collapse" id="navbarResponsive">
 		<?php if(isset($_SESSION['user_id'])): ?>
-				<?php echo'<span>Welcome</span>, '.$_SESSION['user_name']; ?> 
+				<span><?php echo' Welcome, '.$_SESSION['user_name']; ?> </span>
 			<?php else: ?> 
 
 				<?php endif; ?>
