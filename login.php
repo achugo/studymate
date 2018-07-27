@@ -24,7 +24,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])){
 
     $_SESSION['user_name'] = $results['first_name'];
 		$_SESSION['user_id'] = $results['id'];
-	  header("Location: /studymate/index.php");
+	  header("Location: /index.php");
 	}else{
 		$message = 'sorry, those credentials do not match';
 	}

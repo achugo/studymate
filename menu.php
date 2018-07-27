@@ -28,7 +28,7 @@
 			</li>
 
 			<li class="nav-item">
-				<a class="nav-link" href="courses.php" id="3" onclick="Visiteds(this)">Courses</a>
+				<a class="nav-link" href="courses.php" id="3" onclick="Visiteds(this)">Subjects</a>
 			</li>
 		<?php if(isset($_SESSION['user_id'])): ?>
 

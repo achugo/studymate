@@ -43,7 +43,7 @@ include 'menu.php';
 
 <section class="banner-bottom-agile-w3ls services black">
 		<div class="container" style="padding-left: 40px; padding-right: 40px;">	
-			<h3 class="tittle-w3ls cen text-center">Courses</h3>
+			<h3 class="tittle-w3ls cen text-center">Subjects</h3>
 	
          		<div class="row inner-sec-w3layouts-agileits">	
 		           <div class="portfolio-tab-button mt40 ul-li pull-right">

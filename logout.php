@@ -5,7 +5,7 @@ session_unset();
 
 session_destroy();
 
-header("Location: /studymate/index.php")
+header("Location: /index.php")
 
 
 ?>

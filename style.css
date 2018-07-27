@@ -69,7 +69,7 @@ html, body {
 
 h3.tittle-w3ls,
 .feature h3 {
-	font-size: 3.5em;
+	font-size: 3em;
 	color: #0062c4;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
 	font-weight: 700;
@@ -371,8 +371,31 @@ ol, ul {
 
  }
 
+.blueish{
+  background-color: #ffcd00 !important;
+ }
 
+.blueish h3{
+  color: #0062c4;
+}
 
+.blueish h4{
+  color: #0062c4;
+
+}
+
+.blueish p {
+  text-align: justify;
+}
+
+.darkblue p{
+  color: #0062c4 
+}
+
+.color-blue
+{
+  color: black !important;
+}
 
 /*---Media Queries --*/
 
@@ -852,6 +875,7 @@ color: white
 
 .black p {
   color: black;
+  text-align: justify;
 }
 
 .black h1 {
@@ -904,3 +928,13 @@ Extra (xl) large devices (large desktops, 1200px and up)
   color:#ffcd00 !important;
 }
 
+.first{
+  display: inline;
+  width: 25%;
+}
+
+.second{
+  display: inline;
+  float: right;
+  width: 80%;
+}

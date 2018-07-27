@@ -74,13 +74,12 @@ include 'menu.php';
 
 <section class="banner-bottom-agile-w3ls">
 		<div class="container" style="padding-left: 40px;padding-right: 40px;">		
-			<h3 class="tittle-w3ls text-center">About us</h3>
+			<h3 class="tittle-w3ls text-center">What we do</h3>
 			<div class="row inner-sec-w3layouts-agileits black">
 				<div class="col-lg-6 about-img">
 					<img src="img/study.png" class="img-fluid rounded" alt="">
 				</div>
 				<div class="col-lg-6 about-info text-left">
-					<h4 class="sub-hd mb-4">What we do</h4>
 					<p>StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into 
 					   institutions of higher learning in Nigeria. </p>
 					<p class="sup-para mt-2">The project was designed to walk students through the test questions used by the Joint Admission and Matriculation Board in previous years, for the purpose of admitting students to the institutions of their choice.</p>
@@ -94,10 +93,83 @@ include 'menu.php';
 	</section>
 
 
+<section class="banner-bottom-agile-w3ls blueish">
+<div class="container" style="padding-left: 40px;padding-right: 40px;">	
+        <h3 class="tittle-w3ls text-center">What Are You Interested In?</h3>
+    <div class="row inner-sec-w3layouts-agileits blueish ">
+        <div class="col-lg-6">
+        	<div class="first blueish">
+					<img src="img/acc.png" class="up" alt="Accounts"></div>
+					
+					<div class="second ">
+						<h4 class="sub-hd mb-4">Accounts</h4>
+					
+						<p class="color-blue">StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into institutions of higher learning in Nigeria. 
+						The project was designed to walk students through the test questions used by the Joint Admission and Matriculation Board in previous years.</p>
+				 	</div>
+					
+		 </div>
+
+      
+       <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/bio.png" class="up" alt="Biology"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">Biology</h4>
+					
+						<p class="color-blue">StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into institutions of higher learning in Nigeria. 
+						The project was designed to walk students through the test questions used by the Joint Admission and Matriculation Board in previous years.</p>
+				 	</div>
+					
+		</div>
+
+		 
+
+    </div>
+
+     <div class="row inner-sec-w3layouts-agileits">
+        <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/chem.png" class="up" alt="chemistry"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">Chemistry</h4>
+					
+						<p class="color-blue">StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into institutions of higher learning in Nigeria. 
+						The project was designed to walk students through the test questions used by the Joint Admission and Matriculation Board in previous years.</p>
+				 	</div>
+					
+		 </div>
+      
+       <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/geo.png" class="up" alt="Geography"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">Geography</h4>
+					
+						<p class="color-blue">StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into institutions of higher learning in Nigeria. 
+						The project was designed to walk students through the test questions used by the Joint Admission and Matriculation Board in previous years.</p>
+				 	</div>
+					
+		</div>
+
+		 
+
+    </div>
+
+		      
+    
+ </div>
+</section>
+
+
+
 <!--- latest courses -->
-<section class="banner-bottom-agile-w3ls services black">
+<!-- <section class="banner-bottom-agile-w3ls services black">
 		<div class="container" style="padding-left: 40px; padding-right: 40px;">		
-			<h3 class="tittle-w3ls cen text-center">Latest courses</h3>
+			<h3 class="tittle-w3ls cen text-center">Latest Subjects</h3>
 			<div class="row inner-sec-w3layouts-agileits">
 				<div class="col-lg-4 service-in text-center">
 					<div class="card">
@@ -148,7 +220,7 @@ include 'menu.php';
 				
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 
  
