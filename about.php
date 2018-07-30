@@ -29,13 +29,12 @@ include 'menu.php';
 
 <section class="banner-bottom-agile-w3ls">
 		<div class="container" style="padding-left: 40px; padding-right: 40px;">
-			<h3 class="tittle-w3ls text-center">About us</h3>
+			<h3 class="tittle-w3ls text-center">How it works</h3>
 			<div class="row inner-sec-w3layouts-agileits black">
 				<div class="col-lg-6 about-img">
 					<img src="img/study.png" class="img-fluid rounded" alt="">
 				</div>
-				<div class="col-lg-6 about-info text-left">
-					<h4 class="sub-hd mb-4">What we do</h4>
+				<div class="col-lg-6 about-info text-left" style="padding-top: 7px;">
 					<p>StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into institutions of higher learning in Nigeria. 
 					The project was designed to walk students through the test questions used by the Joint Admission and Matriculation Board in previous years, for the 
 				     purpose of admitting students to the institutions of their choice.</p>
