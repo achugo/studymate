@@ -42,7 +42,10 @@ include 'menu.php';
 		<div class="carousel-caption">
 			<h1 class="display-2 improve">Study<span class="yellow">MATE</span></h1>
 			<h3> You are one step away from the university</h3>
-			<button type="button" class="btn btn-primary btn-md"><a href="courses.html">TAKE COURSES</a></button>
+			<?php if(isset($_SESSION['user_id'])): ?>
+			<button type="button" class="btn btn-primary btn-md"><a href="courses.php">TAKE COURSES</a></button>
+			<?php else: ?> 
+			<?php endif; ?>
 		</div>
 	</div>
 	<div class="carousel-item">
@@ -50,7 +53,10 @@ include 'menu.php';
 		<div class="carousel-caption">
 			<h1 class="display-2 improve">Study<span class="yellow">MATE</span></h1>
 			<h3>Study. Pause. Play. Learn at your own pace</h3>
-			<button type="button" class="btn btn-primary btn-md"><a href="courses.html">TAKE COURSES</a></button> 
+			<?php if(isset($_SESSION['user_id'])): ?>
+			<button type="button" class="btn btn-primary btn-md"><a href="courses.php">TAKE COURSES</a></button> 
+			<?php else: ?> 
+			<?php endif; ?>
 			
 	    </div>
 	</div>
@@ -61,7 +67,10 @@ include 'menu.php';
 		<div class="carousel-caption">
 			<h1 class="display-2 improve">Study<span class="yellow">MATE</span></h1>
 			<h3>Your exam guide to higher learning in Nigeria</h3>
-			<button type="button" class="btn btn-primary btn-md"><a href="courses.html">TAKE COURSES</a></button>
+			<?php if(isset($_SESSION['user_id'])): ?>
+			<button type="button" class="btn btn-primary btn-md"><a href="courses.php">TAKE COURSES</a></button>
+			<?php else: ?> 
+			<?php endif; ?>
 			
 	    </div>
 
@@ -74,7 +83,7 @@ include 'menu.php';
 
 <section class="banner-bottom-agile-w3ls">
 		<div class="container" style="padding-left: 40px;padding-right: 40px;">		
-			<h3 class="tittle-w3ls text-center">What we do</h3>
+			<h3 class="tittle-w3ls text-center">How it works</h3>
 			<div class="row inner-sec-w3layouts-agileits black">
 				<div class="col-lg-6 about-img">
 					<img src="img/study.png" class="img-fluid rounded" alt="">
@@ -83,6 +92,7 @@ include 'menu.php';
 					<p>StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into 
 					   institutions of higher learning in Nigeria. </p>
 					<p class="sup-para mt-2">The project was designed to walk students through the test questions used by the Joint Admission and Matriculation Board in previous years, for the purpose of admitting students to the institutions of their choice.</p>
+					<p class="sup-para mt-2">Our solution is designed to allow you practice before test modeling the CBT exam structure of the Board. With beautiful layout, structured design and smart model designed to suit</p>
 					<div class="view my-4">
 						<a href="about.html" class="btn btn-primary read-m">View More</a>
 					</div>
