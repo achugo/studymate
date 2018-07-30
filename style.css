@@ -26,7 +26,7 @@ html, body {
 }
 
 .carousel-caption h1{
-  font-size: 500%;
+  font-size: 400%;
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.36);
   color: #0062c4;
@@ -359,8 +359,6 @@ ol, ul {
 }
  
  .destiny{
-
-  padding-left: 500px;
   font-size: 20px;
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.36);
@@ -414,8 +412,6 @@ h4.sub-hd {
 	}
 
 .destiny{
-
-  padding-left: 90px;
   font-size: 20px;
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.36);
@@ -470,8 +466,6 @@ h4.sub-hd {
 		font-size: 1.3em;
 	}
 .destiny{
-
-  padding-left: 100px;
   font-size: 10px;
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.36);
@@ -492,7 +486,7 @@ h4.sub-hd {
 .carousel-caption {
     position: absolute;
     top: 0;
-    transform: translateY(-50%);
+  
 }
 
 .reduce img{
@@ -556,8 +550,6 @@ h4.sub-hd {
 }
 
 .destiny{
-
-  padding-left: 100px;
   font-size: 10px;
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.36);
@@ -584,9 +576,7 @@ h4.sub-hd {
   font-weight: 700;
 }
 
-.carousel-caption{
-  transform: translateY(-90%);
-}
+
 
 .filtr.filtr-active{
   font-size:0.8em;
@@ -830,14 +820,27 @@ figure {
   color: #00aced ;
 }
 
-
-
 .carousel-caption{
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);  
-
+  top:10%;
 }
+@media(max-width:576px){
+  .carousel-caption{
+    top:-10%;
+  }
+}
+@media(max-width:768px) and (min-width:576px){
+  .carousel-caption{
+    top:1%;
+    position: absolute;
+  }
+}
+@media(max-width:1024px) and (min-width:768px){
+  .carousel-caption{
+    top:0%;
+  }
+}
+
 
 .improve{
   color: #0062c4;
@@ -937,4 +940,34 @@ Extra (xl) large devices (large desktops, 1200px and up)
   display: inline;
   float: right;
   width: 80%;
+}
+
+@media(max-width:768px){
+  .second{
+    display: block;
+    width: 100%;
+  }
+}
+/** Image stylinging for different screen sizes
+done by @achugo
+**/
+
+.reduce{
+  width: 100%;
+  height: 100%;
+}
+@media(max-width:990px){
+  .reduce{
+  width: 85px;
+  height:23px;
+  }
+
+}
+/** class to reduce the icon of the mobile nav-bar icon */
+.standardize{
+  width: 1em !important;
+  height: 1em !important;
+}
+.disp{
+  
 }

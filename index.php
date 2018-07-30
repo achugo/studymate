@@ -122,10 +122,10 @@ include 'menu.php';
 
       
        <div class="col-lg-6">
-        	<div class="first">
+        	<div class="first col-xs-12">
 					<img src="img/bio.png" class="up" alt="Biology"></div>
 					
-					<div class="second">
+					<div class="second col-xs-12">
 						<h4 class="sub-hd mb-4">Biology</h4>
 					
 						<p class="color-blue">StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into institutions of higher learning in Nigeria. 
