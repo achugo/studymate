@@ -106,38 +106,7 @@ include 'menu.php';
 <section class="banner-bottom-agile-w3ls blueish">
 <div class="container" style="padding-left: 40px;padding-right: 40px;">	
         <h3 class="tittle-w3ls text-center">What Are You Interested In?</h3>
-    <div class="row inner-sec-w3layouts-agileits blueish ">
-        <div class="col-lg-6">
-        	<div class="first blueish">
-					<img src="img/acc.png" class="up" alt="Accounts"></div>
-					
-					<div class="second ">
-						<h4 class="sub-hd mb-4">Accounts</h4>
-					
-						<p class="color-blue">StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into institutions of higher learning in Nigeria. 
-						The project was designed to walk students through the test questions used by the Joint Admission and Matriculation Board in previous years.</p>
-				 	</div>
-					
-		 </div>
-
-      
-       <div class="col-lg-6">
-        	<div class="first col-xs-12">
-					<img src="img/bio.png" class="up" alt="Biology"></div>
-					
-					<div class="second col-xs-12">
-						<h4 class="sub-hd mb-4">Biology</h4>
-					
-						<p class="color-blue">StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into institutions of higher learning in Nigeria. 
-						The project was designed to walk students through the test questions used by the Joint Admission and Matriculation Board in previous years.</p>
-				 	</div>
-					
-		</div>
-
-		 
-
-    </div>
-
+  
      <div class="row inner-sec-w3layouts-agileits">
         <div class="col-lg-6">
         	<div class="first">
@@ -146,8 +115,7 @@ include 'menu.php';
 					<div class="second">
 						<h4 class="sub-hd mb-4">Chemistry</h4>
 					
-						<p class="color-blue">StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into institutions of higher learning in Nigeria. 
-						The project was designed to walk students through the test questions used by the Joint Admission and Matriculation Board in previous years.</p>
+						<p class="color-blue">StudyMate gives you the opportunity to know Chemistry as a scientific discipline involved with the combinations of atoms: their composition, structure, properties, behavior and the changes they undergo during a reaction with other compounds. You will get the breakdown of the Chemistry syllabus at your finger tips.</p>
 				 	</div>
 					
 		 </div>
@@ -159,8 +127,7 @@ include 'menu.php';
 					<div class="second">
 						<h4 class="sub-hd mb-4">Geography</h4>
 					
-						<p class="color-blue">StudyMate is a rich, user-friendly education partner for students preparing for their entrance exams into institutions of higher learning in Nigeria. 
-						The project was designed to walk students through the test questions used by the Joint Admission and Matriculation Board in previous years.</p>
+						<p class="color-blue">StudyMate gives you the opportunity to know the study of the physical features of the earth and its atmosphere, and of human activity as it affects and is affected by these, including the distribution of populations and resources and economic activities. You will get the breakdown of the Geography syllabus at your finger tips.</p>
 				 	</div>
 					
 		</div>
@@ -169,7 +136,148 @@ include 'menu.php';
 
     </div>
 
-		      
+    <div class="row inner-sec-w3layouts-agileits">
+        <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/eng.png" class="up" alt="chemistry"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">English</h4>
+					<p class="color-blue">StudyMate gives you the opportunity to know the practice and theory of learning English and then applying it. About 20 percent of the world's population speaks English as a first or secondary language. You will get the breakdown of the English Language syllabus at your finger tips.</p>
+				 	</div>
+					
+		 </div>
+      
+       <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/bio.png" class="up" alt="Geography"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">Biology</h4>
+					
+							<p class="color-blue">StudyMate gives you the opportunity to know the study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behaviour, origin, and distribution. You will get the breakdown of the Biology syllabus at your finger tips.</p>
+				 	</div>
+					
+		</div>
+
+		<div class="row inner-sec-w3layouts-agileits">
+        <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/maths.png" class="up" alt="chemistry"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">Maths</h4>
+					
+						<p class="color-blue">StudyMate gives you the opportunity to know the science of numbers and their operations, interrelations,structure, measurement, transformations, and generalizations Algebra, arithmetic, calculus, geometry, and trigonometry as branches of mathematics. You will get the breakdown of the Maths syllabus at your finger tips.</p>
+				 	</div>
+					
+		 </div>
+      
+       <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/comm.png" class="up" alt="Geography"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">Commerce</h4>
+					
+						<p class="color-blue">StudyMate gives you the opportunity to know Commerce as a branch of business. It is concerned with the exchange of goods and services. It includes all those activities, which directly or indirectly facilitate that exchange. Commerce looks after the distribution aspect of the business. You will get the breakdown of the Commerce syllabus at your finger tips.</p>
+				 	</div>
+					
+		</div>
+
+		<div class="row inner-sec-w3layouts-agileits">
+        <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/chris.png" class="up" alt="chemistry"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">CRS</h4>
+					
+						<p class="color-blue">StudyMate gives you the opportunity to know Christian religious education  as the process where by Christian learning takes place. It often involves "teaching which enables practicing Christians to adopt and deepen their Christian belief, values and dispositions to experience and act in a Christian way. You will get the breakdown of the CRS syllabus at your finger tips.</p>
+				 	</div>
+					
+		 </div>
+      
+       <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/acc.png" class="up" alt="accounts"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">Accounts</h4>
+					
+						<p class="color-blue">StudyMate gives you the opportunity to know Accounts as a formal business arrangement providing for regular dealings or services (such as banking, advertising, or store credit) and involving the establishment and maintenance of an account a checking account. You will get the breakdown of the Account syllabus at your finger tips.</p>
+				 	</div>
+					
+		</div>
+
+		<div class="row inner-sec-w3layouts-agileits">
+        <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/ECO.png" class="up" alt="chemistry"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">Economics</h4>
+					
+						<p class="color-blue">StudyMate gives you the opportunity to know Economics as a social science concerned chiefly with description and analysis of the production, distribution, and consumption of goods and services. You will get the breakdown of the Economics syllabus at your finger tips.</p>
+				 	</div>
+					
+		 </div>
+      
+       <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/ARAB.png" class="up" alt="Geography"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">IRS</h4>
+					
+						<p class="color-blue">StudyMate gives you the opportunity to know Islamic Religious Studies also known as "Kalam" as one of the "religious sciences" of Islam. In Arabic, the word means "discussion" and refers to the Islamic tradition of seeking theological principles through dialectic. You will get the breakdown of the IRS syllabus at your finger tips.</p>
+				 	</div>
+					
+	</div>
+
+	<div class="row inner-sec-w3layouts-agileits">
+        <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/GOV.png" class="up" alt="chemistry"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">Government</h4>
+					
+						<p class="color-blue">StudyMate gives you the opportunity to know Government as a group of people that governs a community or unit. It sets and administers public policy and exercises executive, political and sovereign power through customs, institutions, and laws within a state. You will get the breakdown of the Government syllabus at your finger tips.</p>
+				 	</div>
+					
+		 </div>
+      
+       <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/PHY.png" class="up" alt="Geography"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">Physics</h4>
+					
+					<p class="color-blue">StudyMate gives you the opportunity to know Physics as the branch of science concerned with the nature and properties of matter and energy. The subject matter of physics includes mechanics, heat, light and other radiation, sound, electricity, magnetism, and the structure of atoms. You will get the breakdown of the Physics syllabus at your finger tips.</p>
+				 	</div>
+					
+	</div>
+
+
+
+
+<div class="row inner-sec-w3layouts-agileits">
+        <div class="col-lg-6">
+        	<div class="first">
+					<img src="img/lite.png" class="up" alt="chemistry"></div>
+					
+					<div class="second">
+						<h4 class="sub-hd mb-4">Literature</h4>
+
+						<p class="color-blue">StudyMate gives you the opportunity to know Literature as writings in which expression and form, in connection with ideas of permanent and universal interest, are characteristic or essential features, as poetry, novels, history, biography, and essays. You will get the breakdown of the Literture syllabus at your finger tips.</p>
+				 	</div>
+					
+		 </div>
+      
+     	      
+
     
  </div>
 </section>
@@ -272,9 +380,9 @@ include 'menu.php';
 	</div>
    
     <div class="col-md-4">
-     	<p><a href="about.html" target="blank" > About us</a></p>
+     	<p><a href="about.php" target="blank" > How it works</a></p>
     
-     	<p><a href="courses.html" target="blank" > Courses </a></p>
+     	<p><a href="courses.php" target="blank"> Subjects</a></p>
        
      </div>
 

@@ -68,6 +68,9 @@ include 'menu.php';
 		
          <div class="container">
           <div class="contact_grid_right" style="padding-top: 0px;">
+            <span class="arrange"><?php echo $message ?></span>
+            <!-- Navigation --> 
+            
                <form action="#" method="post">
                      <div class="row contact_left_grid">
                           <div class="col-md-12 ">
@@ -130,9 +133,9 @@ include 'menu.php';
 	</div>
    
     <div class="col-md-4">
-     	<p><a href="about.html" target="blank" > About us</a></p>
+     <p><a href="about.php" target="blank" > How it works</a></p>
     
-     	<p><a href="courses.html" target="blank"> Courses</a></p>
+      <p><a href="courses.php" target="blank"> Subjects</a></p>
      	
      </div>
 

@@ -70,9 +70,9 @@ include 'menu.php';
 	</div>
    
     <div class="col-md-4">
-     	<p><a href="about.html" target="blank" > About us</a></p>
+     	<p><a href="about.php" target="blank" > How it works</a></p>
     
-     	<p><a href="courses.html" target="blank"> Courses</a></p>
+     	<p><a href="courses.php" target="blank"> Subjects</a></p>
      	
      </div>
 

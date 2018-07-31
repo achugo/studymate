@@ -287,6 +287,7 @@ section {
 }
 
 .ul-li ul, .ul-li-block ul{
+ text-align: center;
   margin: 0px;
   padding: 0px;
 }
@@ -783,6 +784,10 @@ figure {
   color:white;
 }
 
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#ffcd00;
+}
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   color:#ffcd00;
 }
@@ -822,11 +827,16 @@ figure {
 
 .carousel-caption{
   position: absolute;
-  top:10%;
+  top:30%;
 }
-@media(max-width:576px){
+@media(min-width:315px) and (max-width: 450px){
   .carousel-caption{
-    top:-10%;
+    top:-5%;
+  }
+}
+@media(max-width:576px) and (min-width: 430px){
+  .carousel-caption{
+    top:15%;
   }
 }
 @media(max-width:768px) and (min-width:576px){
@@ -930,6 +940,16 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .yellow{
   color:#ffcd00 !important;
 }
+
+.arrange{
+  display: inline-block;
+  text-align: center !important;
+  width: 100%;
+  color:#c4002d ;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+   font-weight: 700;
+}
+
 
 .first{
   display: inline;

@@ -46,25 +46,25 @@ include 'menu.php';
 			<h3 class="tittle-w3ls cen text-center">Subjects</h3>
 	
          		<div class="row inner-sec-w3layouts-agileits">	
-		           <div class="portfolio-tab-button mt40 ul-li pull-right">
+		           <div class="portfolio-tab-button mt40 ul-li pull-right" style="width: 100%;">
 								<ul id="filters" class="nav-gallery">
 									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr filtr-active " data-filter="1">ENGLISH</li>
 									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr " data-filter="2">BIOLOGY</li>
-									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr  " data-filter="3">CHEMISTRY</li>
+									<!-- <li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr  " data-filter="3">CHEMISTRY</li>
 									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="4">COMMERCE</li>
 									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="5">CRS</li>
-									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="6">ACCOUNTS</li>
-									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="7">ECONOMICS</li>
-									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="8">GEOGRAPHY</li>
+									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="6">ACCOUNTS</li> -->
+									<!-- <li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="7">ECONOMICS</li> -->
+									<!-- <li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="8">GEOGRAPHY</li> -->
 									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="9">GOVERNMENT</li>
-									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="10">PHYSICS</li>
-									<li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="11">LITERATURE</li>
+									<!-- <li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="10">PHYSICS</li> -->
+									<!-- <li onclick="showi(this, document.getElementsByClassName('item'))" class="filtr-button filtr" data-filter="11">LITERATURE</li> -->
 								</ul>
 					</div>
 				</div>
 				<div class="row inner-sec-w3layouts-agileits">
 
-                     	<div class="col-lg-4 service-in text-center">
+                     <div class="col-lg-4 service-in text-center" style=" margin:  0 auto;">
 						<div class="card">
 						<div class="item" data-category="1">
 							<div class="card-body blue">
@@ -82,7 +82,7 @@ include 'menu.php';
 					</div>
 				</div>
 
-				<div class="col-lg-4 service-in text-center">
+				<!-- <div class="col-lg-4 service-in text-center">
 						<div class="card">
 						<div class="item" data-category="1">
 							<div class="card-body blue">
@@ -281,16 +281,16 @@ include 'menu.php';
 					</div>
 				</div>
 
-
+ -->
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2003</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -302,12 +302,12 @@ include 'menu.php';
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2004</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -320,12 +320,12 @@ include 'menu.php';
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2005</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down"><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -338,12 +338,12 @@ include 'menu.php';
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body  white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2006</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down"><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -356,12 +356,12 @@ include 'menu.php';
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2007</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down  "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -374,12 +374,12 @@ include 'menu.php';
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2008</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down  "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -392,12 +392,12 @@ include 'menu.php';
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2009</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down  "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -410,12 +410,12 @@ include 'menu.php';
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2010</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down  "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -428,12 +428,12 @@ include 'menu.php';
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2011</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down"><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -446,12 +446,12 @@ include 'menu.php';
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2012</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -464,12 +464,12 @@ include 'menu.php';
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2013</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -482,12 +482,12 @@ include 'menu.php';
 					<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="6">
-							<div class="card-body white">
+							<div class="card-body red white">
 								<h5 class="card-title">Accounts 2014</h5>
-								<img src="img/account.png" class="img-fluid" >
+								<img src="img/biology.png" class="img-fluid" >
 								<div class="buttons">
 	                                
-	                                	<button class="btn btn-primary read-m down"><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
+	                                	<button class="btn btn-primary read-m down redd "><a class="popup-youtube " href="http://mtn.infomall.ng/Physics/Physics2003/">Start</a><br></button>
 	                                    
 	                                
 	                            </div>
@@ -496,7 +496,7 @@ include 'menu.php';
 					</div>
 				</div>
 		
-				<div class="col-lg-4 service-in  text-center hide">
+				<div class="col-lg-4 service-in  text-center hide" style=" margin:  0 auto;">
 					<div class="card">
 						<div class="item" data-category="2">
 							<div class="card-body red white">
@@ -513,7 +513,7 @@ include 'menu.php';
 					</div>
 				</div>
 
-				<div class="col-lg-4 service-in  text-center hide">
+				<!-- <div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="2">
 							<div class="card-body red white">
@@ -1307,7 +1307,7 @@ include 'menu.php';
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
                 
 
                 <div class="col-lg-4 service-in  text-center hide">
@@ -1710,7 +1710,7 @@ include 'menu.php';
 				</div>
 
                 
-                <div class="col-lg-4 service-in  text-center hide">
+                <div class="col-lg-4 service-in  text-center hide" style=" margin:  0 auto;">
 					<div class="card">
 						<div class="item" data-category="9">
 							<div class="card-body red white">
@@ -1727,7 +1727,7 @@ include 'menu.php';
 					</div>
 				</div>
 
-				<div class="col-lg-4 service-in  text-center hide">
+			<!-- 	<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="9">
 							<div class="card-body red white">
@@ -1913,7 +1913,7 @@ include 'menu.php';
 						</div>
 					</div>
 				</div>
-
+ -->
 				 <div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						
@@ -2147,7 +2147,7 @@ include 'menu.php';
 					</div>
 				</div>
 
-				<div class="col-lg-4 service-in  text-center hide">
+			<!-- 	<div class="col-lg-4 service-in  text-center hide">
 					<div class="card">
 						<div class="item" data-category="11">
 							<div class="card-body red white">
@@ -2332,7 +2332,7 @@ include 'menu.php';
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 
 			</div>

@@ -24,7 +24,7 @@
 			</li>
 				
 			<li class="nav-item">
-				<a class="nav-link" href="about.php">About us</a>
+				<a class="nav-link" href="about.php">How it works</a>
 			</li>
 
 			<li class="nav-item">
