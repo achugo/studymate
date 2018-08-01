@@ -87,11 +87,11 @@ include 'menu.php';
                                 </div>
                                 <div class="form-group">
                                   <label for="validationCustom03 my-2">Password</label>
-                                  <input class="form-control" type="password" name="password_confirmation" placeholder="" required="">
+                                  <input class="form-control" type="password" name="password" placeholder="" required="">
                                 </div>
                                 <div class="form-group">
                                   <label for="validationCustom03 my-2">Confirm Password</label>
-                                  <input class="form-control" data-validation="confirmation" type="password" name="pass" placeholder="" required="">
+                                  <input class="form-control" data-validation="confirmation" type="password" name="password" placeholder="" required="">
                                 </div>
                                 <div class="form-group">
                                   <label for="validationCustom03 my-2">Mobile number</label>
