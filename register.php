@@ -44,6 +44,8 @@ session_start();
   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -68,15 +70,12 @@ include 'menu.php';
 		
          <div class="container">
           <div class="contact_grid_right" style="padding-top: 0px;">
-            <span class="arrange"><?php echo $message ?></span>
-            <!-- Navigation --> 
-            
-               <form action="#" method="post">
+               <form action="#" method="post" id="registration-form">
                      <div class="row contact_left_grid">
                           <div class="col-md-12 ">
                                 <div class="form-group">
                                   <label for="validationCustom01 my-2">FirstName</label>
-                                  <input class="form-control" type="text" name="first_name" placeholder="" required="">
+                                  <input class="form-control" data-validation="email" type="text" name="first_name" placeholder="" required="">
                                 </div>
                                 <div class="form-group">
                                   <label for="validationCustom01 my-2">Last Name</label>
@@ -88,11 +87,11 @@ include 'menu.php';
                                 </div>
                                 <div class="form-group">
                                   <label for="validationCustom03 my-2">Password</label>
-                                  <input class="form-control" type="password" name="password" placeholder="" required="">
+                                  <input class="form-control" type="password" name="password_confirmation" placeholder="" required="">
                                 </div>
                                 <div class="form-group">
                                   <label for="validationCustom03 my-2">Confirm Password</label>
-                                  <input class="form-control" type="password" name="password" placeholder="" required="">
+                                  <input class="form-control" data-validation="confirmation" type="password" name="pass" placeholder="" required="">
                                 </div>
                                 <div class="form-group">
                                   <label for="validationCustom03 my-2">Mobile number</label>
@@ -133,9 +132,9 @@ include 'menu.php';
 	</div>
    
     <div class="col-md-4">
-     <p><a href="about.php" target="blank" > How it works</a></p>
+     	<p><a href="about.html" target="blank" > About us</a></p>
     
-      <p><a href="courses.php" target="blank"> Subjects</a></p>
+     	<p><a href="courses.html" target="blank"> Courses</a></p>
      	
      </div>
 
@@ -282,7 +281,19 @@ $('.next-button.repeat-password').click(
 );	
 </script> -->
 
-  <script src="js/script.js"></script>
+<script>
+
+$.validate({
+  modules : 'location, date, security, file',
+  onModulesLoaded : function() {
+    $('#country').suggestCountry();
+  }
+});
+
+// Restrict presentation length
+$('#presentation').restrictLength( $('#pres-max-length') );
+
+</script>
 </body>
 </html> 
 

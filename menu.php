@@ -27,18 +27,21 @@
 				<a class="nav-link" href="about.php">How it works</a>
 			</li>
 
+			
+		<?php if(isset($_SESSION['user_id'])): ?>
+
 			<li class="nav-item">
 				<a class="nav-link" href="courses.php">Subjects</a>
 			</li>
-		<?php if(isset($_SESSION['user_id'])): ?>
-
-
 			
 			<li class="nav-item">
 					<a class="nav-link" href="logout.php">Log out</a>
 			</li>
 
 		<?php else: ?> 
+			<li class="nav-item">
+				<a class="nav-link" href="courses_2.php">Subjects</a>
+			</li>
 			<li class="nav-item">
 					<a class="nav-link" href="register.php">Registration</a>
 			</li>
