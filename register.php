@@ -75,7 +75,7 @@ include 'menu.php';
                           <div class="col-md-12 ">
                                 <div class="form-group">
                                   <label for="validationCustom01 my-2">FirstName</label>
-                                  <input class="form-control" data-validation="email" type="text" name="first_name" placeholder="" required="">
+                                  <input class="form-control"  type="text" name="first_name" placeholder="" required="">
                                 </div>
                                 <div class="form-group">
                                   <label for="validationCustom01 my-2">Last Name</label>
@@ -83,7 +83,7 @@ include 'menu.php';
                                 </div>
                                 <div class="form-group">
                                   <label for="exampleFormControlInput1">Email</label>
-                                  <input class="form-control" type="email" name="email" placeholder="" required="">
+                                  <input class="form-control" type="email" name="email" data-validation="email" placeholder="" required="">
                                 </div>
                                 <div class="form-group">
                                   <label for="validationCustom03 my-2">Password</label>

@@ -69,7 +69,7 @@ include 'menu.php';
          <div class="container">
           <div class="contact_grid_right" style="padding-top: 0px;">
               <?php if (!empty($message))
-              echo '<br>'. $message; 
+              echo '<br><span>'. $message ."</span>"; 
                ?>
                <form action="login.php" method="POST">
                      <div class="row contact_left_grid">
