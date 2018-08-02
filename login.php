@@ -15,12 +15,13 @@ if(!empty($_POST['email']) && !empty($_POST['password'])){
 	$records->bindParam(':email', $email);
 	$records->execute();
   $results = $records->fetch(PDO::FETCH_ASSOC);
+  $check_pass = $results['pwd'];
  
   
 
 	$message = '';
   $hashed_password = password_hash($pass, PASSWORD_DEFAULT);
-	if(count($results) > 0 && password_verify($pass, $hashed_password)){
+	if(count($results) > 0 && password_verify($check_pass, $hashed_password)){
 
     $_SESSION['user_name'] = $results['first_name'];
 		$_SESSION['user_id'] = $results['id'];
