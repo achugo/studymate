@@ -27,7 +27,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])){
 		$_SESSION['user_id'] = $results['id'];
 	  header("Location: /index.php");
 	}else{
-		$message = 'sorry, those credentials do not match';
+		$message = 'Sorry, those credentials do not match';
 	}
 
 
@@ -69,7 +69,7 @@ include 'menu.php';
          <div class="container">
           <div class="contact_grid_right" style="padding-top: 0px;">
               <?php if (!empty($message))
-              echo '<br><span>'. $message ."</span>"; 
+              echo "<br><span class='sorry'>". $message ."</span>"; 
                ?>
                <form action="login.php" method="POST">
                      <div class="row contact_left_grid">
